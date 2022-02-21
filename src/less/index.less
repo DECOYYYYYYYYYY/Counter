@@ -8,12 +8,16 @@ button{
   border: 0;
 }
 
-#plusOne {
+#plusOne, #leaveOne {
   margin: 0 auto;
   display: block;
   font-size: 100px;
   background-color: skyblue;
   border-radius: 25%;
+}
+
+#leaveOne {
+  background-color: red;
 }
 
 #outPut {
@@ -24,39 +28,39 @@ button{
   }
 }
 
-#numberOfTimeStamps {
+#numberOfTimeStamps, #numberOfTimeStamps2 {
   display: flex;
   margin: 15px 0;
   justify-content: center;
   font-size: 18px;
 }
 
-#numberOfTimeStamps span {
+#numberOfTimeStamps span, #numberOfTimeStamps2 span {
   font-weight: 700;
 }
 
 @media only screen{
   @media (max-width:768px){
-    #plusOne{
-      width: 80vw;
+    #plusOne, #leaveOne{
+      width: 70vw;
       height: $width;
     }
   }
   @media (min-width:768px){
-    #plusOne{
-      width: 614px;
+    #plusOne, #leaveOne{
+      width: 550px;
       height: $width;
     }
   }
   @media (min-width:992px){
-    #plusOne{
-      width: 614px;
+    #plusOne, #leaveOne{
+      width: 550px;
       height: $width;
     }
   }
   @media (min-width:1200px){
-    #plusOne{
-      width: 614px;
+    #plusOne, #leaveOne{
+      width: 550px;
       height: $width;
     }
   }

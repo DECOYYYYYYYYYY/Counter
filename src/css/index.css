@@ -6,12 +6,16 @@
 button {
   border: 0;
 }
-#plusOne {
+#plusOne,
+#leaveOne {
   margin: 0 auto;
   display: block;
   font-size: 100px;
   background-color: skyblue;
   border-radius: 25%;
+}
+#leaveOne {
+  background-color: red;
 }
 #outPut {
   padding: 10px 5%;
@@ -20,36 +24,42 @@ button {
 #outPut li {
   word-wrap: break-word;
 }
-#numberOfTimeStamps {
+#numberOfTimeStamps,
+#numberOfTimeStamps2 {
   display: flex;
   margin: 15px 0;
   justify-content: center;
   font-size: 18px;
 }
-#numberOfTimeStamps span {
+#numberOfTimeStamps span,
+#numberOfTimeStamps2 span {
   font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
-  #plusOne {
-    width: 80vw;
-    height: 80vw;
+  #plusOne,
+  #leaveOne {
+    width: 70vw;
+    height: 70vw;
   }
 }
 @media only screen and (min-width: 768px) {
-  #plusOne {
-    width: 614px;
-    height: 614px;
+  #plusOne,
+  #leaveOne {
+    width: 550px;
+    height: 550px;
   }
 }
 @media only screen and (min-width: 992px) {
-  #plusOne {
-    width: 614px;
-    height: 614px;
+  #plusOne,
+  #leaveOne {
+    width: 550px;
+    height: 550px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  #plusOne {
-    width: 614px;
-    height: 614px;
+  #plusOne,
+  #leaveOne {
+    width: 550px;
+    height: 550px;
   }
 }
